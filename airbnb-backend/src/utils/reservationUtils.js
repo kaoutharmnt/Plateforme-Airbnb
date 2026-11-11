@@ -7,7 +7,7 @@ export function getReservationDateDebut (reservations, date_debut){
     return reservations.filter(
         reservations => reservations.date_debut === date_debut
     );
-};
+}; 
 export function getReservationPrixTotal (reservations, prix_total){
     return reservations.filter(
         reservations => reservations.prix_total === prix_total
